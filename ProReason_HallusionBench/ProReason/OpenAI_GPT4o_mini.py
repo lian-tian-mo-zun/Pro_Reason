@@ -5,7 +5,7 @@ import mimetypes
 
 def get_gpt4o_mini_response_pic(prompt,pic,system_prompt):
     client = OpenAI(
-        api_key="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",
+        api_key=os.getenv("OPENAI_API_KEY"),
     )
     image_path = pic
 
@@ -48,7 +48,7 @@ def get_gpt4o_mini_response_pic(prompt,pic,system_prompt):
 
 def get_gpt4o_mini_response_text(prompt,system_prompt):
     client = OpenAI(
-        api_key="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",
+        api_key=os.getenv("OPENAI_API_KEY"),
     )
     chat_completion = client.chat.completions.create(
         model="gpt-4o-mini",
