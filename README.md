@@ -10,7 +10,7 @@ A more thorough discussion of our work can be found in our [paper](https://arxiv
 ### 🧠 Method Description
 ---
 <p align="center">
-  <img src=images/ProReason.jpg />
+  <img src=images/proreason.jpg />
 </p>
 
 **ProReason** can be divided into three stages: **Action**, **Judgment**, and **Summary**, with each involving different agents.
